@@ -1,0 +1,58 @@
+about:
+  description: Obsidian CLI (Community) -  Interact with Obsidian in the terminal!
+  license: MIT
+  homepage: 
+  head: 58830c8
+  archived: false
+  latestVersion: v0.3.7
+  collectedAt: 2026-09-04T04:23:30Z
+timeline:
+  created: 2023-01-14
+  lastCommit: 2026-09-01
+  lastRelease: 2026-09-01
+popularity:
+  star: 1580
+  watcher: 7
+  fork: 71
+  release: 22
+  contributor: 17
+  pullRequest: 23
+  issue: 58
+language:
+  Go: 266588
+  Makefile: 2294
+  Shell: 420
+totalLine: 269302
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 1
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last90d:
+    since: 2026-06-06
+    release: 1
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last180d:
+    since: 2026-03-08
+    release: 5
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last360d:
+    since: 2025-09-09
+    release: 12
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
