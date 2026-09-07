@@ -5,7 +5,7 @@ about:
   head: 58830c8
   archived: false
   latestVersion: "v0.3.7"
-  collectedAt: 2026-09-07T05:31:56Z
+  collectedAt: 2026-09-07T19:05:13Z
 timeline:
   created: 2023-01-14
   lastCommit: 2026-09-01
@@ -81,7 +81,7 @@ total:
   commit: 86
 ---
 path: /home/runner/.x-repo/github.com/Yakitrak/obsidian-cli
-collectedAt: 2026-09-07T05:31:59Z
+collectedAt: 2026-09-07T19:05:15Z
 loc:
   Go:
     code: 262425
@@ -157,7 +157,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T05:32:00+00:00
+  collectedAt: 2026-09-07T19:05:16+00:00
   platform:
     darwin/arm64:
       name:  notesmd-cli_0.3.7_darwin_all.tar.gz
