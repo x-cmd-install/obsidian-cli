@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 518,
       "digest": "sha256:8dbc2e5731ff171d72a1975a07338a04aa2b4c8e0f75a6ff976d34e916c38fba",
-      "download_count": 100,
+      "download_count": 101,
       "created_at": "2026-09-01T07:57:54Z",
       "updated_at": "2026-09-01T07:57:54Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.7/checksums.txt"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3753576,
       "digest": "sha256:b657c8b19c5fb6524136b3c47c10c3febffa9e48e8253313ea9f6f6fc32d6c72",
-      "download_count": 398,
+      "download_count": 402,
       "created_at": "2026-09-01T07:57:54Z",
       "updated_at": "2026-09-01T07:57:54Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.7/notesmd-cli_0.3.7_darwin_all.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1931619,
       "digest": "sha256:f7e8f21b42f494d3c1af5d4f4f3b917922354289e4f5fddb7345c0750b3a9017",
-      "download_count": 166,
+      "download_count": 169,
       "created_at": "2026-09-01T07:57:53Z",
       "updated_at": "2026-09-01T07:57:53Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.7/notesmd-cli_0.3.7_linux_amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1769056,
       "digest": "sha256:3867ab60156ffd9fd938981e55f8fcbccdf5837ed518b640059a42c0e2f39ab4",
-      "download_count": 26,
+      "download_count": 29,
       "created_at": "2026-09-01T07:57:53Z",
       "updated_at": "2026-09-01T07:57:53Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.7/notesmd-cli_0.3.7_linux_arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1946487,
       "digest": "sha256:9f858b03a6109279f03db0ba3abdf1fffaebd9fc3a3f30a5dc04a054e3d7e731",
-      "download_count": 453,
+      "download_count": 466,
       "created_at": "2026-09-01T07:57:53Z",
       "updated_at": "2026-09-01T07:57:53Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.7/notesmd-cli_0.3.7_windows_amd64.tar.gz"

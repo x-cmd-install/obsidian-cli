@@ -5,7 +5,7 @@ about:
   head: 58830c8
   archived: false
   latestVersion: "v0.3.7"
-  collectedAt: 2026-09-08T02:37:08Z
+  collectedAt: 2026-09-08T05:29:27Z
 timeline:
   created: 2023-01-14
   lastCommit: 2026-09-01
@@ -81,7 +81,7 @@ total:
   commit: 86
 ---
 path: /home/runner/.x-repo/github.com/Yakitrak/obsidian-cli
-collectedAt: 2026-09-08T02:37:10Z
+collectedAt: 2026-09-08T05:29:30Z
 loc:
   Go:
     code: 262425
