@@ -37,7 +37,7 @@ Total: **270,713** lines of code across **734** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,581 · **Forks**: 72 · **Open issues**: 58 · **Contributors**: 17
+- **Stars**: 1,582 · **Forks**: 72 · **Open issues**: 58 · **Contributors**: 17
 
 ## Totals (cumulative)
 
@@ -83,4 +83,4 @@ Install metadata for obsidian-cli lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T05:31:55Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T19:23:59Z._
