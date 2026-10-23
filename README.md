@@ -47,12 +47,12 @@ Total: **273,423** lines of code across **740** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-24 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-25 | 3 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-27 | 13 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-01 | 15 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-23 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-25 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-26 | 3 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-28 | 13 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-02 | 15 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -65,6 +65,15 @@ Total: **273,423** lines of code across **740** files in the top 5 languages.
 | [notesmd-cli_0.3.8_windows_amd64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.8/notesmd-cli_0.3.8_windows_amd64.tar.gz) | 1.9 MiB | `native/win/x64` |
 | [notesmd-cli_0.3.8_windows_arm64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.8/notesmd-cli_0.3.8_windows_arm64.tar.gz) | 1.7 MiB | `native/win/arm64` |
 
+## Distribution status
+
+Reported by **29** distros on [repology.org](https://repology.org/project/obsidian-cli). **2** are ✅ on the latest upstream release, **22** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `1.14.4` | ⚠️ outdated |
+| Nix unstable | `1.14.4` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for obsidian-cli lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `obsidian-cli` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -74,4 +83,4 @@ Install metadata for obsidian-cli lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:27:08Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:31:58Z._
