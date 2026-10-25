@@ -1,4 +1,4 @@
-- repo: arch
+- repo: manjaro_unstable
   subrepo: extra
   srcname: obsidian
   binname: obsidian
@@ -6,6 +6,39 @@
   version: 1.14.4
   origversion: 1.14.4-2
   status: outdated
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.13.7
+  origversion: 1.13.7-2
+  status: outdated
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.14.4
+  origversion: 1.14.4-1
+  status: outdated
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: arch
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.14.5
+  origversion: 1.14.5-1
+  status: newest
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
   licenses:
     - LicenseRef-Obsidian
@@ -185,39 +218,6 @@
     - Obsidian-EULA
   categories:
     - app-office
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.13.7
-  origversion: 1.13.7-2
-  status: outdated
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.14.4
-  origversion: 1.14.4-1
-  status: outdated
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.14.4
-  origversion: 1.14.4-2
-  status: outdated
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
 - repo: nix_stable_24_05
   srcname: obsidian
   visiblename: obsidian
@@ -301,9 +301,9 @@
 - repo: nix_unstable
   srcname: obsidian
   visiblename: obsidian
-  version: 1.14.4
+  version: 1.14.5
   origversion: null
-  status: outdated
+  status: newest
   summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
   maintainers:
     - conradmearns+github@pm.me
