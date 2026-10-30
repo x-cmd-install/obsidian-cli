@@ -1,3 +1,47 @@
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.13.7
+  origversion: 1.13.7-2
+  status: outdated
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.14.4
+  origversion: 1.14.4-1
+  status: outdated
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.14.4
+  origversion: 1.14.4-2
+  status: outdated
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: arch
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.14.5
+  origversion: 1.14.5-1
+  status: newest
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
 - repo: aur
   srcname: obsidian
   binname: obsidian-bin
@@ -10,27 +54,6 @@
     - nekolovo@aur
   licenses:
     - custom
-- repo: arch
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.14.5
-  origversion: 1.14.5-1
-  status: newest
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: pacstall
-  srcname: obsidian-deb
-  binname: obsidian-deb
-  visiblename: obsidian-deb
-  version: 1.14.4
-  origversion: 1.14.4-1
-  status: outdated
-  summary: Powerful and extensible knowledge base editor that uses markdown
-  maintainers:
-    - me@hepno.dev
 - repo: aur
   srcname: obsidian
   binname: obsidian-appimage
@@ -55,7 +78,7 @@
   binname: obsidian
   visiblename: textproc/obsidian
   version: 1.14.4
-  origversion: 1.14.4_4
+  origversion: 1.14.4_5
   status: outdated
   summary: Powerful and extensible knowledge base application
   maintainers:
@@ -76,6 +99,22 @@
     - Obsidian-EULA
   categories:
     - app-office
+- repo: nix_stable_24_05
+  srcname: obsidian
+  visiblename: obsidian
+  version: 1.6.7
+  origversion: null
+  status: outdated
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  maintainers:
+    - atilasaraiva@gmail.com
+    - conradmearns+github@pm.me
+    - francesco@zanini.me
+    - aaron@bolddaemon.com
+    - supra4keanu@hotmail.com
+    - w-lfchen@posteo.net
+  licenses:
+    - Obsidian End User Agreement
 - repo: gentoo_ovl_guru
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -195,55 +234,6 @@
     - Obsidian-EULA
   categories:
     - app-office
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.13.7
-  origversion: 1.13.7-2
-  status: outdated
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.14.4
-  origversion: 1.14.4-1
-  status: outdated
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.14.4
-  origversion: 1.14.4-2
-  status: outdated
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: nix_stable_24_05
-  srcname: obsidian
-  visiblename: obsidian
-  version: 1.6.7
-  origversion: null
-  status: outdated
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  maintainers:
-    - atilasaraiva@gmail.com
-    - conradmearns+github@pm.me
-    - francesco@zanini.me
-    - aaron@bolddaemon.com
-    - supra4keanu@hotmail.com
-    - w-lfchen@posteo.net
-  licenses:
-    - Obsidian End User Agreement
 - repo: nix_stable_24_11
   srcname: obsidian
   visiblename: obsidian
@@ -323,6 +313,16 @@
     - prc.zhao@outlook.com
   licenses:
     - Obsidian End User Agreement
+- repo: pacstall
+  srcname: obsidian-deb
+  binname: obsidian-deb
+  visiblename: obsidian-deb
+  version: 1.14.4
+  origversion: 1.14.4-1
+  status: outdated
+  summary: Powerful and extensible knowledge base editor that uses markdown
+  maintainers:
+    - me@hepno.dev
 - repo: pisi_contrib
   srcname: editor/obsidian
   visiblename: obsidian
