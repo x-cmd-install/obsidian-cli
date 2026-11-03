@@ -3,8 +3,8 @@
   srcname: obsidian
   binname: obsidian
   visiblename: obsidian
-  version: 1.14.5
-  origversion: 1.14.5-1
+  version: 1.15.0
+  origversion: 1.15.0-1
   status: newest
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
   licenses:
@@ -15,7 +15,7 @@
   visiblename: obsidian-bin
   version: 1.14.5
   origversion: 1.14.5-1
-  status: newest
+  status: outdated
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files (Official binary package with bundled Electron)
   maintainers:
     - nekolovo@aur
@@ -27,7 +27,7 @@
   visiblename: obsidian-appimage
   version: 1.14.5
   origversion: 1.14.5-1
-  status: newest
+  status: outdated
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files (AppImage version)
   maintainers:
     - nekolovo@aur
@@ -38,7 +38,7 @@
   visiblename: Obsidian
   version: 1.14.5
   origversion: null
-  status: newest
+  status: outdated
   summary: Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.
 - repo: freebsd
   srcname: textproc/obsidian
@@ -97,7 +97,7 @@
 - repo: homebrew_casks
   srcname: obsidian
   visiblename: Obsidian
-  version: 1.14.5
+  version: 1.15.0
   origversion: null
   status: newest
   summary: Knowledge base that works on top of a local folder of plain text Markdown files
@@ -115,6 +115,23 @@
     - steev@kali.org
   categories:
     - non-free/editors
+- repo: nix_stable_25_11
+  srcname: obsidian
+  visiblename: obsidian
+  version: 1.10.3
+  origversion: null
+  status: outdated
+  summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
+  maintainers:
+    - atilasaraiva@gmail.com
+    - conradmearns+github@pm.me
+    - francesco@zanini.me
+    - aaron@bolddaemon.com
+    - supra4keanu@hotmail.com
+    - w-lfchen@posteo.net
+    - prc.zhao@outlook.com
+  licenses:
+    - Obsidian End User Agreement
 - repo: liguros_stable
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -266,23 +283,6 @@
     - w-lfchen@posteo.net
   licenses:
     - Obsidian End User Agreement
-- repo: nix_stable_25_11
-  srcname: obsidian
-  visiblename: obsidian
-  version: 1.10.3
-  origversion: null
-  status: outdated
-  summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
-  maintainers:
-    - atilasaraiva@gmail.com
-    - conradmearns+github@pm.me
-    - francesco@zanini.me
-    - aaron@bolddaemon.com
-    - supra4keanu@hotmail.com
-    - w-lfchen@posteo.net
-    - prc.zhao@outlook.com
-  licenses:
-    - Obsidian End User Agreement
 - repo: nix_stable_26_05
   srcname: obsidian
   visiblename: obsidian
@@ -303,7 +303,7 @@
   visiblename: obsidian
   version: 1.14.5
   origversion: null
-  status: newest
+  status: outdated
   summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
   maintainers:
     - conradmearns+github@pm.me
@@ -338,7 +338,7 @@
   subrepo: extras
   binname: obsidian
   visiblename: obsidian
-  version: 1.14.5
+  version: 1.15.0
   origversion: null
   status: newest
   licenses:
