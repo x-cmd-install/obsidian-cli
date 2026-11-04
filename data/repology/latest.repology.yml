@@ -44,9 +44,9 @@
   srcname: textproc/obsidian
   binname: obsidian
   visiblename: textproc/obsidian
-  version: 1.14.4
-  origversion: 1.14.4_6
-  status: outdated
+  version: 1.15.0
+  origversion: null
+  status: newest
   summary: Powerful and extensible knowledge base application
   maintainers:
     - arrowd@freebsd.org
@@ -115,23 +115,6 @@
     - steev@kali.org
   categories:
     - non-free/editors
-- repo: nix_stable_25_11
-  srcname: obsidian
-  visiblename: obsidian
-  version: 1.10.3
-  origversion: null
-  status: outdated
-  summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
-  maintainers:
-    - atilasaraiva@gmail.com
-    - conradmearns+github@pm.me
-    - francesco@zanini.me
-    - aaron@bolddaemon.com
-    - supra4keanu@hotmail.com
-    - w-lfchen@posteo.net
-    - prc.zhao@outlook.com
-  licenses:
-    - Obsidian End User Agreement
 - repo: liguros_stable
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -281,6 +264,23 @@
     - aaron@bolddaemon.com
     - supra4keanu@hotmail.com
     - w-lfchen@posteo.net
+  licenses:
+    - Obsidian End User Agreement
+- repo: nix_stable_25_11
+  srcname: obsidian
+  visiblename: obsidian
+  version: 1.10.3
+  origversion: null
+  status: outdated
+  summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
+  maintainers:
+    - atilasaraiva@gmail.com
+    - conradmearns+github@pm.me
+    - francesco@zanini.me
+    - aaron@bolddaemon.com
+    - supra4keanu@hotmail.com
+    - w-lfchen@posteo.net
+    - prc.zhao@outlook.com
   licenses:
     - Obsidian End User Agreement
 - repo: nix_stable_26_05
