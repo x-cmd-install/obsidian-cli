@@ -45,7 +45,7 @@
   binname: obsidian
   visiblename: textproc/obsidian
   version: 1.15.0
-  origversion: null
+  origversion: 1.15.0_1
   status: newest
   summary: Powerful and extensible knowledge base application
   maintainers:
