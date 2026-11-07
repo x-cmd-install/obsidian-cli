@@ -58,7 +58,7 @@
   version: 1.9.14
   origversion: null
   status: legacy
-  summary: A second brain, for you, forever.
+  summary: A second brain, for you, forever
   maintainers:
     - artemis@artemis.sh
     - nvraxn@gmail.com
@@ -72,7 +72,7 @@
   version: 1.10.3
   origversion: null
   status: legacy
-  summary: A second brain, for you, forever.
+  summary: A second brain, for you, forever
   maintainers:
     - artemis@artemis.sh
     - nvraxn@gmail.com
@@ -86,7 +86,7 @@
   version: 1.12.7
   origversion: null
   status: outdated
-  summary: A second brain, for you, forever.
+  summary: A second brain, for you, forever
   maintainers:
     - artemis@artemis.sh
     - nvraxn@gmail.com
@@ -149,7 +149,7 @@
   version: 1.9.14
   origversion: null
   status: legacy
-  summary: A second brain, for you, forever.
+  summary: A second brain, for you, forever
   maintainers:
     - artemis@artemis.sh
     - nvraxn@gmail.com
@@ -163,7 +163,7 @@
   version: 1.10.3
   origversion: null
   status: legacy
-  summary: A second brain, for you, forever.
+  summary: A second brain, for you, forever
   maintainers:
     - artemis@artemis.sh
     - nvraxn@gmail.com
@@ -177,7 +177,7 @@
   version: 1.12.7
   origversion: null
   status: outdated
-  summary: A second brain, for you, forever.
+  summary: A second brain, for you, forever
   maintainers:
     - artemis@artemis.sh
     - nvraxn@gmail.com
@@ -190,31 +190,31 @@
   srcname: obsidian
   binname: obsidian
   visiblename: obsidian
-  version: 1.4.12
-  origversion: 1.4.12-1
+  version: 1.14.4
+  origversion: 1.14.4-1
   status: outdated
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
   licenses:
-    - custom:Commercial
+    - LicenseRef-Obsidian
 - repo: manjaro_testing
   subrepo: extra
   srcname: obsidian
   binname: obsidian
   visiblename: obsidian
-  version: 1.4.13
-  origversion: 1.4.13-1
+  version: 1.14.5
+  origversion: 1.14.5-1
   status: outdated
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
   licenses:
-    - custom:Commercial
+    - LicenseRef-Obsidian
 - repo: manjaro_unstable
   subrepo: extra
   srcname: obsidian
   binname: obsidian
   visiblename: obsidian
-  version: 1.14.4
-  origversion: 1.14.4-2
-  status: outdated
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
   licenses:
     - LicenseRef-Obsidian
