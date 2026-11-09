@@ -52,6 +52,16 @@
     - arrowd@freebsd.org
   categories:
     - textproc
+- repo: slackbuilds
+  srcname: development/obsidian
+  visiblename: development/obsidian
+  version: 1.13.7
+  origversion: null
+  status: outdated
+  maintainers:
+    - matt.egger@gmail.com
+  categories:
+    - development
 - repo: gentoo_ovl_guru
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -201,9 +211,9 @@
   srcname: obsidian
   binname: obsidian
   visiblename: obsidian
-  version: 1.14.5
-  origversion: 1.14.5-1
-  status: outdated
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
   licenses:
     - LicenseRef-Obsidian
@@ -343,16 +353,6 @@
   status: newest
   licenses:
     - Freeware
-- repo: slackbuilds
-  srcname: development/obsidian
-  visiblename: development/obsidian
-  version: 1.13.7
-  origversion: null
-  status: outdated
-  maintainers:
-    - matt.egger@gmail.com
-  categories:
-    - development
 - repo: wikidata
   srcname: Q103994532
   visiblename: Obsidian
