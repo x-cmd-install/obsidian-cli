@@ -1,3 +1,25 @@
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
 - repo: arch
   subrepo: extra
   srcname: obsidian
@@ -13,9 +35,9 @@
   srcname: obsidian
   binname: obsidian-bin
   visiblename: obsidian-bin
-  version: 1.14.5
-  origversion: 1.14.5-1
-  status: outdated
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files (Official binary package with bundled Electron)
   maintainers:
     - nekolovo@aur
@@ -25,9 +47,9 @@
   srcname: obsidian
   binname: obsidian-appimage
   visiblename: obsidian-appimage
-  version: 1.14.5
-  origversion: 1.14.5-1
-  status: outdated
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files (AppImage version)
   maintainers:
     - nekolovo@aur
@@ -52,16 +74,6 @@
     - arrowd@freebsd.org
   categories:
     - textproc
-- repo: slackbuilds
-  srcname: development/obsidian
-  visiblename: development/obsidian
-  version: 1.13.7
-  origversion: null
-  status: outdated
-  maintainers:
-    - matt.egger@gmail.com
-  categories:
-    - development
 - repo: gentoo_ovl_guru
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -76,6 +88,17 @@
     - Obsidian-EULA
   categories:
     - app-office
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.14.4
+  origversion: 1.14.4-1
+  status: outdated
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
 - repo: gentoo_ovl_guru
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -195,39 +218,6 @@
     - Obsidian-EULA
   categories:
     - app-office
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.14.4
-  origversion: 1.14.4-1
-  status: outdated
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: newest
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: newest
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
 - repo: nix_stable_24_05
   srcname: obsidian
   visiblename: obsidian
@@ -353,12 +343,31 @@
   status: newest
   licenses:
     - Freeware
+- repo: slackbuilds
+  srcname: development/obsidian
+  visiblename: development/obsidian
+  version: 1.13.7
+  origversion: null
+  status: outdated
+  maintainers:
+    - matt.egger@gmail.com
+  categories:
+    - development
 - repo: wikidata
   srcname: Q103994532
   visiblename: Obsidian
-  version: 1.14.4
+  version: 1.15.0
   origversion: null
-  status: outdated
+  status: newest
+  summary: knowledge base and note-taking software
+  licenses:
+    - proprietary license
+- repo: wikidata
+  srcname: Q103994532
+  visiblename: Obsidian
+  version: 1.15.1
+  origversion: null
+  status: devel
   summary: knowledge base and note-taking software
   licenses:
     - proprietary license
