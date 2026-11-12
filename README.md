@@ -37,7 +37,7 @@ Total: **273,423** lines of code across **740** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,606 · **Forks**: 78 · **Open issues**: 60 · **Contributors**: 17
+- **Stars**: 1,607 · **Forks**: 78 · **Open issues**: 60 · **Contributors**: 17
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **273,423** lines of code across **740** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-13 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-15 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-16 | 13 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-21 | 15 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-13 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-13 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-14 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-16 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-17 | 13 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-22 | 15 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -67,12 +67,12 @@ Total: **273,423** lines of code across **740** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **30** distros on [repology.org](https://repology.org/project/obsidian-cli). **9** are ✅ on the latest upstream release, **15** are ⚠️ on an older version.
+Reported by **30** distros on [repology.org](https://repology.org/project/obsidian-cli). **10** are ✅ on the latest upstream release, **14** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `1.15.0` | ✅ latest |
-| Nix unstable | `1.14.5` | ⚠️ outdated |
+| Nix unstable | `1.15.0` | ✅ latest |
 
 ## Improve this data
 
@@ -83,4 +83,4 @@ Install metadata for obsidian-cli lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:11:26Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:28:24Z._
