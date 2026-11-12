@@ -1,22 +1,24 @@
-- repo: slackbuilds
-  srcname: development/obsidian
-  visiblename: development/obsidian
-  version: 1.13.7
-  origversion: null
-  status: outdated
-  maintainers:
-    - matt.egger@gmail.com
-  categories:
-    - development
-- repo: wikidata
-  srcname: Q103994532
+- repo: homebrew_casks
+  srcname: obsidian
   visiblename: Obsidian
   version: 1.15.0
   origversion: null
   status: newest
-  summary: knowledge base and note-taking software
-  licenses:
-    - proprietary license
+  summary: Knowledge base that works on top of a local folder of plain text Markdown files
+- repo: kali_rolling
+  subrepo: non-free
+  srcname: obsidian
+  binnames:
+    - obsidian
+  visiblename: obsidian
+  version: 1.7.7
+  origversion: 1.7.7-0kali1
+  status: outdated
+  maintainers:
+    - devel@kali.org
+    - steev@kali.org
+  categories:
+    - non-free/editors
 - repo: wikidata
   srcname: Q103994532
   visiblename: Obsidian
@@ -122,27 +124,23 @@
     - Obsidian-EULA
   categories:
     - app-office
-- repo: homebrew_casks
+- repo: nix_stable_25_11
   srcname: obsidian
-  visiblename: Obsidian
-  version: 1.15.0
-  origversion: null
-  status: newest
-  summary: Knowledge base that works on top of a local folder of plain text Markdown files
-- repo: kali_rolling
-  subrepo: non-free
-  srcname: obsidian
-  binnames:
-    - obsidian
   visiblename: obsidian
-  version: 1.7.7
-  origversion: 1.7.7-0kali1
+  version: 1.10.3
+  origversion: null
   status: outdated
+  summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
   maintainers:
-    - devel@kali.org
-    - steev@kali.org
-  categories:
-    - non-free/editors
+    - atilasaraiva@gmail.com
+    - conradmearns+github@pm.me
+    - francesco@zanini.me
+    - aaron@bolddaemon.com
+    - supra4keanu@hotmail.com
+    - w-lfchen@posteo.net
+    - prc.zhao@outlook.com
+  licenses:
+    - Obsidian End User Agreement
 - repo: liguros_stable
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -294,23 +292,6 @@
     - w-lfchen@posteo.net
   licenses:
     - Obsidian End User Agreement
-- repo: nix_stable_25_11
-  srcname: obsidian
-  visiblename: obsidian
-  version: 1.10.3
-  origversion: null
-  status: outdated
-  summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
-  maintainers:
-    - atilasaraiva@gmail.com
-    - conradmearns+github@pm.me
-    - francesco@zanini.me
-    - aaron@bolddaemon.com
-    - supra4keanu@hotmail.com
-    - w-lfchen@posteo.net
-    - prc.zhao@outlook.com
-  licenses:
-    - Obsidian End User Agreement
 - repo: nix_stable_26_05
   srcname: obsidian
   visiblename: obsidian
@@ -329,9 +310,9 @@
 - repo: nix_unstable
   srcname: obsidian
   visiblename: obsidian
-  version: 1.14.5
+  version: 1.15.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
   maintainers:
     - conradmearns+github@pm.me
@@ -371,3 +352,22 @@
   status: newest
   licenses:
     - Freeware
+- repo: slackbuilds
+  srcname: development/obsidian
+  visiblename: development/obsidian
+  version: 1.13.7
+  origversion: null
+  status: outdated
+  maintainers:
+    - matt.egger@gmail.com
+  categories:
+    - development
+- repo: wikidata
+  srcname: Q103994532
+  visiblename: Obsidian
+  version: 1.15.0
+  origversion: null
+  status: newest
+  summary: knowledge base and note-taking software
+  licenses:
+    - proprietary license
