@@ -1,33 +1,19 @@
-- repo: homebrew_casks
+- repo: nix_stable_24_05
   srcname: obsidian
-  visiblename: Obsidian
-  version: 1.15.0
-  origversion: null
-  status: newest
-  summary: Knowledge base that works on top of a local folder of plain text Markdown files
-- repo: kali_rolling
-  subrepo: non-free
-  srcname: obsidian
-  binnames:
-    - obsidian
   visiblename: obsidian
-  version: 1.7.7
-  origversion: 1.7.7-0kali1
-  status: outdated
-  maintainers:
-    - devel@kali.org
-    - steev@kali.org
-  categories:
-    - non-free/editors
-- repo: wikidata
-  srcname: Q103994532
-  visiblename: Obsidian
-  version: 1.15.1
+  version: 1.6.7
   origversion: null
-  status: devel
-  summary: knowledge base and note-taking software
+  status: outdated
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  maintainers:
+    - atilasaraiva@gmail.com
+    - conradmearns+github@pm.me
+    - francesco@zanini.me
+    - aaron@bolddaemon.com
+    - supra4keanu@hotmail.com
+    - w-lfchen@posteo.net
   licenses:
-    - proprietary license
+    - Obsidian End User Agreement
 - repo: arch
   subrepo: extra
   srcname: obsidian
@@ -124,23 +110,27 @@
     - Obsidian-EULA
   categories:
     - app-office
-- repo: nix_stable_25_11
+- repo: homebrew_casks
   srcname: obsidian
-  visiblename: obsidian
-  version: 1.10.3
+  visiblename: Obsidian
+  version: 1.15.1
   origversion: null
+  status: devel
+  summary: Knowledge base that works on top of a local folder of plain text Markdown files
+- repo: kali_rolling
+  subrepo: non-free
+  srcname: obsidian
+  binnames:
+    - obsidian
+  visiblename: obsidian
+  version: 1.7.7
+  origversion: 1.7.7-0kali1
   status: outdated
-  summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
   maintainers:
-    - atilasaraiva@gmail.com
-    - conradmearns+github@pm.me
-    - francesco@zanini.me
-    - aaron@bolddaemon.com
-    - supra4keanu@hotmail.com
-    - w-lfchen@posteo.net
-    - prc.zhao@outlook.com
-  licenses:
-    - Obsidian End User Agreement
+    - devel@kali.org
+    - steev@kali.org
+  categories:
+    - non-free/editors
 - repo: liguros_stable
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -244,22 +234,6 @@
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
   licenses:
     - LicenseRef-Obsidian
-- repo: nix_stable_24_05
-  srcname: obsidian
-  visiblename: obsidian
-  version: 1.6.7
-  origversion: null
-  status: outdated
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  maintainers:
-    - atilasaraiva@gmail.com
-    - conradmearns+github@pm.me
-    - francesco@zanini.me
-    - aaron@bolddaemon.com
-    - supra4keanu@hotmail.com
-    - w-lfchen@posteo.net
-  licenses:
-    - Obsidian End User Agreement
 - repo: nix_stable_24_11
   srcname: obsidian
   visiblename: obsidian
@@ -290,6 +264,23 @@
     - aaron@bolddaemon.com
     - supra4keanu@hotmail.com
     - w-lfchen@posteo.net
+  licenses:
+    - Obsidian End User Agreement
+- repo: nix_stable_25_11
+  srcname: obsidian
+  visiblename: obsidian
+  version: 1.10.3
+  origversion: null
+  status: outdated
+  summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
+  maintainers:
+    - atilasaraiva@gmail.com
+    - conradmearns+github@pm.me
+    - francesco@zanini.me
+    - aaron@bolddaemon.com
+    - supra4keanu@hotmail.com
+    - w-lfchen@posteo.net
+    - prc.zhao@outlook.com
   licenses:
     - Obsidian End User Agreement
 - repo: nix_stable_26_05
@@ -347,9 +338,9 @@
   subrepo: extras
   binname: obsidian
   visiblename: obsidian
-  version: 1.15.0
+  version: 1.15.1
   origversion: null
-  status: newest
+  status: devel
   licenses:
     - Freeware
 - repo: slackbuilds
@@ -368,6 +359,15 @@
   version: 1.15.0
   origversion: null
   status: newest
+  summary: knowledge base and note-taking software
+  licenses:
+    - proprietary license
+- repo: wikidata
+  srcname: Q103994532
+  visiblename: Obsidian
+  version: 1.15.1
+  origversion: null
+  status: devel
   summary: knowledge base and note-taking software
   licenses:
     - proprietary license
