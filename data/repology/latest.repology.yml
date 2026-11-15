@@ -1,3 +1,26 @@
+- repo: arch
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: aur
+  srcname: obsidian
+  binname: obsidian-bin
+  visiblename: obsidian-bin
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files (Official binary package with bundled Electron)
+  maintainers:
+    - nekolovo@aur
+  licenses:
+    - custom
 - repo: aur
   srcname: obsidian
   binname: obsidian-appimage
@@ -17,45 +40,12 @@
   origversion: null
   status: outdated
   summary: Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: newest
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: newest
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: arch
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: newest
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
 - repo: freebsd
   srcname: textproc/obsidian
   binname: obsidian
   visiblename: textproc/obsidian
   version: 1.15.0
-  origversion: 1.15.0_1
+  origversion: 1.15.0_2
   status: newest
   summary: Powerful and extensible knowledge base application
   maintainers:
@@ -76,20 +66,15 @@
     - Obsidian-EULA
   categories:
     - app-office
-- repo: liguros_develop
-  srcname: app-office/obsidian
-  visiblename: app-office/obsidian
-  version: 1.15.0
+- repo: scoop
+  subrepo: extras
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.15.1
   origversion: null
-  status: newest
-  summary: A second brain, for you, forever
-  maintainers:
-    - artemis@artemis.sh
-    - nvraxn@gmail.com
+  status: devel
   licenses:
-    - Obsidian-EULA
-  categories:
-    - app-office
+    - Freeware
 - repo: gentoo_ovl_guru
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -111,18 +96,6 @@
   origversion: null
   status: devel
   summary: Knowledge base that works on top of a local folder of plain text Markdown files
-- repo: aur
-  srcname: obsidian
-  binname: obsidian-bin
-  visiblename: obsidian-bin
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: newest
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files (Official binary package with bundled Electron)
-  maintainers:
-    - nekolovo@aur
-  licenses:
-    - custom
 - repo: kali_rolling
   subrepo: non-free
   srcname: obsidian
@@ -168,6 +141,20 @@
 - repo: liguros_develop
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
+  version: 1.15.0
+  origversion: null
+  status: newest
+  summary: A second brain, for you, forever
+  maintainers:
+    - artemis@artemis.sh
+    - nvraxn@gmail.com
+  licenses:
+    - Obsidian-EULA
+  categories:
+    - app-office
+- repo: liguros_develop
+  srcname: app-office/obsidian
+  visiblename: app-office/obsidian
   version: 1.12.7
   origversion: null
   status: legacy
@@ -187,6 +174,28 @@
   version: 1.14.4
   origversion: 1.14.4-1
   status: outdated
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
   licenses:
     - LicenseRef-Obsidian
@@ -306,15 +315,6 @@
     - erkanisik@pisilinux.org
   licenses:
     - custom
-- repo: scoop
-  subrepo: extras
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.15.1
-  origversion: null
-  status: devel
-  licenses:
-    - Freeware
 - repo: slackbuilds
   srcname: development/obsidian
   visiblename: development/obsidian
