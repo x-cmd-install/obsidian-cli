@@ -37,22 +37,22 @@ Total: **273,423** lines of code across **740** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,606 · **Forks**: 78 · **Open issues**: 60 · **Contributors**: 17
+- **Stars**: 1,607 · **Forks**: 79 · **Open issues**: 60 · **Contributors**: 17
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 59 · **Open PRs**: 0 · **Closed issues**: 60 · **Open issues**: 0 · **Commits**: 91
+- **Releases**: 23 · **Merged PRs**: 59 · **Open PRs**: 3 · **Closed issues**: 60 · **Open issues**: 0 · **Commits**: 91
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-16 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-17 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-19 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-20 | 13 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-25 | 15 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-17 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-18 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-20 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-21 | 13 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-26 | 15 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -67,12 +67,12 @@ Total: **273,423** lines of code across **740** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **28** distros on [repology.org](https://repology.org/project/obsidian-cli). **10** are ✅ on the latest upstream release, **12** are ⚠️ on an older version.
+Reported by **28** distros on [repology.org](https://repology.org/project/obsidian-cli). **9** are ✅ on the latest upstream release, **11** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `1.15.0` | ✅ latest |
-| Nix unstable | `1.15.0` | ✅ latest |
+| Nix unstable | `1.15.1` | devel |
 
 ## Improve this data
 
@@ -83,4 +83,4 @@ Install metadata for obsidian-cli lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:28:06Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T07:42:02Z._
