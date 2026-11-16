@@ -1,3 +1,17 @@
+- repo: kali_rolling
+  subrepo: non-free
+  srcname: obsidian
+  binnames:
+    - obsidian
+  visiblename: obsidian
+  version: 1.7.7
+  origversion: 1.7.7-0kali1
+  status: outdated
+  maintainers:
+    - devel@kali.org
+    - steev@kali.org
+  categories:
+    - non-free/editors
 - repo: arch
   subrepo: extra
   srcname: obsidian
@@ -36,9 +50,9 @@
 - repo: chocolatey
   binname: obsidian
   visiblename: Obsidian
-  version: 1.14.5
+  version: 1.15.1
   origversion: null
-  status: outdated
+  status: devel
   summary: Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.
 - repo: freebsd
   srcname: textproc/obsidian
@@ -66,15 +80,6 @@
     - Obsidian-EULA
   categories:
     - app-office
-- repo: scoop
-  subrepo: extras
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.15.1
-  origversion: null
-  status: devel
-  licenses:
-    - Freeware
 - repo: gentoo_ovl_guru
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -96,20 +101,6 @@
   origversion: null
   status: devel
   summary: Knowledge base that works on top of a local folder of plain text Markdown files
-- repo: kali_rolling
-  subrepo: non-free
-  srcname: obsidian
-  binnames:
-    - obsidian
-  visiblename: obsidian
-  version: 1.7.7
-  origversion: 1.7.7-0kali1
-  status: outdated
-  maintainers:
-    - devel@kali.org
-    - steev@kali.org
-  categories:
-    - non-free/editors
 - repo: liguros_stable
   srcname: app-office/obsidian
   visiblename: app-office/obsidian
@@ -282,9 +273,9 @@
 - repo: nix_unstable
   srcname: obsidian
   visiblename: obsidian
-  version: 1.15.0
+  version: 1.15.1
   origversion: null
-  status: newest
+  status: devel
   summary: Powerful knowledge base that works on top of a local folder of plain text Markdown files
   maintainers:
     - conradmearns+github@pm.me
@@ -315,6 +306,15 @@
     - erkanisik@pisilinux.org
   licenses:
     - custom
+- repo: scoop
+  subrepo: extras
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.15.1
+  origversion: null
+  status: devel
+  licenses:
+    - Freeware
 - repo: slackbuilds
   srcname: development/obsidian
   visiblename: development/obsidian
