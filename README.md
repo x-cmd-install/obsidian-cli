@@ -14,11 +14,11 @@ x install obsidian-cli
 
 ## Code insight
 
-Total: **273,423** lines of code across **740** files in the top 5 languages.
+Total: **273,455** lines of code across **740** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 265,245 | 31,660 | 30,403 | 691 |
+| Go | 265,277 | 31,667 | 30,406 | 691 |
 | AssemblyGAS | 6,485 | 327 | 1,709 | 37 |
 | Sh | 1,285 | 140 | 70 | 6 |
 | Makefile | 158 | 3 | 48 | 5 |
@@ -32,7 +32,7 @@ Total: **273,423** lines of code across **740** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v0.3.8` (2026-10-13)
-- **Last commit**: 2026-10-13
+- **Last commit**: 2026-11-20
 - **Assets in release**: 6
 
 ## Popularity
@@ -41,18 +41,18 @@ Total: **273,423** lines of code across **740** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 59 · **Open PRs**: 3 · **Closed issues**: 60 · **Open issues**: 0 · **Commits**: 91
+- **Releases**: 23 · **Merged PRs**: 60 · **Open PRs**: 2 · **Closed issues**: 60 · **Open issues**: 0 · **Commits**: 92
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-21 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-22 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-24 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-25 | 13 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-30 | 15 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-22 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-23 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-25 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-26 | 13 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-01 | 15 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for obsidian-cli lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T10:12:37Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:59:24Z._
