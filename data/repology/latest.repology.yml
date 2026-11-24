@@ -1,3 +1,32 @@
+- repo: chocolatey
+  binname: obsidian
+  visiblename: Obsidian
+  version: 1.15.1
+  origversion: null
+  status: devel
+  summary: Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: obsidian
+  binname: obsidian
+  visiblename: obsidian
+  version: 1.15.1
+  origversion: 1.15.1-1
+  status: devel
+  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
+  licenses:
+    - LicenseRef-Obsidian
 - repo: arch
   subrepo: extra
   srcname: obsidian
@@ -33,13 +62,6 @@
     - nekolovo@aur
   licenses:
     - custom
-- repo: chocolatey
-  binname: obsidian
-  visiblename: Obsidian
-  version: 1.15.1
-  origversion: null
-  status: devel
-  summary: Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.
 - repo: freebsd
   srcname: textproc/obsidian
   binname: obsidian
@@ -162,31 +184,9 @@
   srcname: obsidian
   binname: obsidian
   visiblename: obsidian
-  version: 1.14.4
-  origversion: 1.14.4-1
-  status: outdated
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
   version: 1.15.0
   origversion: 1.15.0-1
   status: newest
-  summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
-  licenses:
-    - LicenseRef-Obsidian
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: obsidian
-  binname: obsidian
-  visiblename: obsidian
-  version: 1.15.1
-  origversion: 1.15.1-1
-  status: devel
   summary: A powerful knowledge base that works on top of a local folder of plain text Markdown files
   licenses:
     - LicenseRef-Obsidian
