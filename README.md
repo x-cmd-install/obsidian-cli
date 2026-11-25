@@ -37,7 +37,7 @@ Total: **273,455** lines of code across **740** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,607 · **Forks**: 78 · **Open issues**: 60 · **Contributors**: 17
+- **Stars**: 1,608 · **Forks**: 78 · **Open issues**: 60 · **Contributors**: 17
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **273,455** lines of code across **740** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-29 | 13 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-04 | 15 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 13 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-05 | 15 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -65,15 +65,6 @@ Total: **273,455** lines of code across **740** files in the top 5 languages.
 | [notesmd-cli_0.3.8_windows_amd64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.8/notesmd-cli_0.3.8_windows_amd64.tar.gz) | 1.9 MiB | `native/win/x64` |
 | [notesmd-cli_0.3.8_windows_arm64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.8/notesmd-cli_0.3.8_windows_arm64.tar.gz) | 1.7 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **28** distros on [repology.org](https://repology.org/project/obsidian-cli). **8** are ✅ on the latest upstream release, **10** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `1.15.1` | devel |
-| Nix unstable | `1.15.1` | devel |
-
 ## Improve this data
 
 Install metadata for obsidian-cli lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `obsidian-cli` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -83,4 +74,4 @@ Install metadata for obsidian-cli lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:49:10Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:07:45Z._
