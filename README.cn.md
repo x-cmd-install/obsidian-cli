@@ -14,15 +14,15 @@ x install obsidian-cli
 
 ## 代码洞察
 
-合计: **273,455** 行代码（覆盖前 5 种语言、共 **740** 个文件）。
+合计: **276,062** 行代码（覆盖前 5 种语言、共 **742** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 265,277 | 31,667 | 30,406 | 691 |
+| Go | 265,356 | 31,673 | 30,419 | 691 |
 | AssemblyGAS | 6,485 | 327 | 1,709 | 37 |
+| Json | 2,529 | 0 | 0 | 3 |
 | Sh | 1,285 | 140 | 70 | 6 |
 | Makefile | 158 | 3 | 48 | 5 |
-| Python | 97 | 1 | 15 | 1 |
 
 ## 源代码
 
@@ -31,39 +31,39 @@ x install obsidian-cli
 
 ## 发布
 
-- **最新版本**: `v0.3.8` (2026-10-13)
-- **最近提交**: 2026-11-20
+- **最新版本**: `v0.3.9` (2026-11-25)
+- **最近提交**: 2026-11-25
 - **Release 含资产**: 6 个
 
 ## 流行度
 
-- **Star**: 1,608 · **Fork**: 78 · **开放 issue**: 60 · **贡献者**: 17
+- **Star**: 1,612 · **Fork**: 79 · **开放 issue**: 60 · **贡献者**: 18
 
 ## 累计统计
 
-- **发布数**: 23 · **已合并 PR**: 60 · **开放 PR**: 2 · **已关闭 issue**: 60 · **开放 issue**: 0 · **提交数**: 92
+- **发布数**: 24 · **已合并 PR**: 63 · **开放 PR**: 0 · **已关闭 issue**: 60 · **开放 issue**: 0 · **提交数**: 100
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-26 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-27 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-29 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-30 | 13 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-05 | 15 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-27 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-27 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-28 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-30 | 3 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-12-01 | 14 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-06 | 16 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [checksums.txt](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.8/checksums.txt) | 518 B | `other` |
-| [notesmd-cli_0.3.8_darwin_all.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.8/notesmd-cli_0.3.8_darwin_all.tar.gz) | 3.7 MiB | `native/darwin/x64` |
-| [notesmd-cli_0.3.8_linux_amd64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.8/notesmd-cli_0.3.8_linux_amd64.tar.gz) | 1.9 MiB | `native/linux/x64` |
-| [notesmd-cli_0.3.8_linux_arm64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.8/notesmd-cli_0.3.8_linux_arm64.tar.gz) | 1.7 MiB | `native/linux/arm64` |
-| [notesmd-cli_0.3.8_windows_amd64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.8/notesmd-cli_0.3.8_windows_amd64.tar.gz) | 1.9 MiB | `native/win/x64` |
-| [notesmd-cli_0.3.8_windows_arm64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.8/notesmd-cli_0.3.8_windows_arm64.tar.gz) | 1.7 MiB | `native/win/arm64` |
+| [checksums.txt](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.9/checksums.txt) | 518 B | `other` |
+| [notesmd-cli_0.3.9_darwin_all.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.9/notesmd-cli_0.3.9_darwin_all.tar.gz) | 3.7 MiB | `native/darwin/x64` |
+| [notesmd-cli_0.3.9_linux_amd64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.9/notesmd-cli_0.3.9_linux_amd64.tar.gz) | 1.9 MiB | `native/linux/x64` |
+| [notesmd-cli_0.3.9_linux_arm64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.9/notesmd-cli_0.3.9_linux_arm64.tar.gz) | 1.7 MiB | `native/linux/arm64` |
+| [notesmd-cli_0.3.9_windows_amd64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.9/notesmd-cli_0.3.9_windows_amd64.tar.gz) | 1.9 MiB | `native/win/x64` |
+| [notesmd-cli_0.3.9_windows_arm64.tar.gz](https://github.com/Yakitrak/obsidian-cli/releases/download/v0.3.9/notesmd-cli_0.3.9_windows_arm64.tar.gz) | 1.7 MiB | `native/win/arm64` |
 
 ## 改进这些数据
 
@@ -74,4 +74,4 @@ obsidian-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/inst
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261125.yml` · 2026-11-25T09:07:46Z._
+_数据快照: `data/card/261126.yml` · 2026-11-26T08:56:18Z._
