@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 518,
       "digest": "sha256:770af3deb217ddee1805703a0d1a272a894008de3303022e1f00f74dca83e1cd",
-      "download_count": 18,
+      "download_count": 49,
       "created_at": "2026-11-25T18:32:30Z",
       "updated_at": "2026-11-25T18:32:30Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.9/checksums.txt"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3895077,
       "digest": "sha256:ff52f51085896b039acccaa6e659cf71d0953240c1a66f0ca585dd18b1542b13",
-      "download_count": 82,
+      "download_count": 172,
       "created_at": "2026-11-25T18:32:30Z",
       "updated_at": "2026-11-25T18:32:31Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.9/notesmd-cli_0.3.9_darwin_all.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2013632,
       "digest": "sha256:e0096bee0d21b3cf5e49d969632d7d4dff73f15764545b43db5ab0785205f053",
-      "download_count": 28,
+      "download_count": 60,
       "created_at": "2026-11-25T18:32:29Z",
       "updated_at": "2026-11-25T18:32:30Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.9/notesmd-cli_0.3.9_linux_amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1824870,
       "digest": "sha256:e108f5bb4d3225ac8b42df3b15449b16a5728d48bfceace9bdfc1e7b8fd80e3f",
-      "download_count": 5,
+      "download_count": 6,
       "created_at": "2026-11-25T18:32:29Z",
       "updated_at": "2026-11-25T18:32:30Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.9/notesmd-cli_0.3.9_linux_arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2037667,
       "digest": "sha256:b086a25ad03a871a6b048bd6c3d609104ca6138e0b15d3f91fae1967c4fd78b6",
-      "download_count": 23,
+      "download_count": 89,
       "created_at": "2026-11-25T18:32:29Z",
       "updated_at": "2026-11-25T18:32:30Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.9/notesmd-cli_0.3.9_windows_amd64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 1827513,
       "digest": "sha256:a937d94730b4b1785c6a5b8cfeb9206540158d094fbe51087f67d75c9acce7ff",
-      "download_count": 1,
+      "download_count": 3,
       "created_at": "2026-11-25T18:32:29Z",
       "updated_at": "2026-11-25T18:32:30Z",
       "browser_download_url": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.9/notesmd-cli_0.3.9_windows_arm64.tar.gz"
